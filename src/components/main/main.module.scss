@@ -1,0 +1,61 @@
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.fieldGroup{
+    display: flex;
+    gap: 12px;
+
+}
+.field{
+    color: white;
+    ::placeholder{
+        color: white;
+    }
+}
+.select{
+    color:white;
+}
+.selectPlaceholder{
+    background-color: #150303;
+}
+button{
+    color: white;
+    border: 1px solid yellow;
+    padding: 4px 8px;
+    width: 350px;
+    margin-top: 16px;
+}
+.estoqueTable {
+  width: 100%;
+  border-collapse: separate; /* Alterado de 'collapse' para 'separate' */
+  border-spacing: 15px 10px; /* Espaçamento horizontal e vertical entre células */
+  margin-top: 1rem;
+}
+
+.estoqueTable th, .estoqueTable td {
+  padding: 12px 15px; /* Aumento do padding interno */
+  text-align: left;
+  border-radius: 4px; /* Bordas arredondadas */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05); /* Sombra sutil */
+}
+
+.estoqueTable th {
+  background-color: #f2f2f2;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Remover sombra e ajustar cor para cabeçalho */
+.estoqueTable thead th {
+  box-shadow: none;
+  background-color: #f8f9fa;
+}
+
+/* Espaçamento adicional para a tabela */
+.listaJogos {
+  margin-top: 30px;
+  padding: 20px;
+  //background-color: #f8f9fa;
+  border-radius: 8px;
+}
